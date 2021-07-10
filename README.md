@@ -2,7 +2,7 @@
 - 👀 I’m interested in Data Science
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on Python
-- 📫 How to reach me at gabriela.m.a@hotmail.com
+- 📫 How to reach me at gmachamaral@gmail.com
 
 <!---
 gabriela-machado/gabriela-machado is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
