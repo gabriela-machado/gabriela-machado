@@ -1,0 +1,34 @@
+source: PyNative
+
+#Exercise1_Given two interger numbers return their product. If the product is greater than 1000, return their sum.
+
+def mult_or_sum(a, b):
+    #calculate product of two number 
+    product = a * b
+    #check if product is less than 1000
+    if product <= 1000:
+        return product
+    else:
+        #product is greater than 1000 calculate sum
+        return a + b
+
+# first condition
+result = mult_or_sum(20, 30)
+print('The result is', result)
+
+# second condition
+result = mult_or_sum(40, 30)
+print('The result is', result)
+
+
+# Exercise2_Given a range of the first 10 numbers, Iterate from the start number to the end number, and In each iteration print the sum of the current number and previous number
+
+def SumNum(num):
+    previousNum = 0
+    for i in range(num):
+        sum = previousNum + i
+        print('Current number:', i, 'Previous Number:', previousNum, 'Sum:', sum)
+        previousNum = i 
+
+SumNum(10)
+
